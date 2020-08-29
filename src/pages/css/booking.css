@@ -1,0 +1,108 @@
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .header__logo img {
+    margin: 10%;
+    width: 70%;
+    height: 70%; }
+  .header__center {
+    margin: auto;
+    font-weight: bold; }
+    .header__center a {
+      margin: 20px; }
+  .header__account {
+    height: 100%; }
+    .header__account a {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    .header__account img {
+      width: 40px;
+      height: 40px; }
+  .header__location {
+    height: 80%;
+    border-left: 1px grey solid; }
+  @media screen and (max-width: 760px) {
+    .header__center {
+      display: none; }
+    .header__location {
+      display: none; } }
+
+.schedule {
+  height: 1000px;
+  margin-top: 100px;
+  padding-top: 200px;
+  background-color: #ebebeb; }
+  .schedule__content {
+    background-color: white;
+    margin: auto;
+    width: 75%;
+    height: 700px;
+    display: flex;
+    flex-direction: row; }
+    .schedule__content__cinema {
+      overflow: auto;
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .schedule__content__cinema img {
+        width: 100%; }
+      .schedule__content__cinema ul {
+        list-style: none; }
+      .schedule__content__cinema ul li {
+        width: 80%;
+        border-bottom: solid 1px black; }
+    .schedule__content__place {
+      overflow: auto;
+      width: 40%;
+      height: 100%; }
+      .schedule__content__place img {
+        width: 40%;
+        height: 40%; }
+      .schedule__content__place ul {
+        list-style: none; }
+      .schedule__content__place ul li {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        border-bottom: solid 1px black; }
+    .schedule__content__time {
+      overflow: auto;
+      width: 40%;
+      height: 100%; }
+      .schedule__content__time img {
+        width: 30%;
+        height: 30%; }
+      .schedule__content__time ul {
+        list-style: none; }
+      .schedule__content__time ul li {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: solid 1px black; }
+
+@media only screen and (max-width: 600px) {
+  .schedule {
+    display: none; } }
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-size: 15px; }
+
+.movie {
+  background: url(../img/a232f37b6fd35319f4eae25e435a5a91.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer {
+  background-color: #222222;
+  color: white; }
+  .footer__infoFooter {
+    width: 80%;
+    margin: auto; }
+
+/*# sourceMappingURL=booking.css.map */

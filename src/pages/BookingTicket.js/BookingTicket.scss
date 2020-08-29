@@ -1,0 +1,44 @@
+.ghe {
+  border: 3px solid red;
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+
+.gheDaDat {
+  background-color: pink !important;
+  cursor: no-drop !important;
+}
+
+.gheVip {
+  background-color: black;
+  color: #fff;
+}
+
+.gheDangDat {
+  background-color: rgb(245, 23, 23);
+  columns: #fff;
+}
+.screen {
+  border-bottom: 50px solid rgb(8, 8, 8);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+  margin: auto;
+}
+.booking {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://i.pinimg.com/originals/3b/4f/ac/3b4facdf04c5dcb2930c3177ab966dce.jpg);
+  background-position: center;
+  background-size: cover;
+}

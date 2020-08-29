@@ -1,0 +1,13 @@
+.detail {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://i.pinimg.com/originals/3b/4f/ac/3b4facdf04c5dcb2930c3177ab966dce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* .hinhAnh {
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 500px;
+  min-height: 500px;
+} */
