@@ -28,9 +28,18 @@ export const Header = (props) => {
             </a>
           </NavLink>
           {localStorage.getItem("userLogin") ? (
-            <a class="text-dark" href="#">
-              Hi,bạn đã đăng nhập
-            </a>
+            <>
+              <a class="text-dark" href="#">
+                Hi,bạn đã đăng nhập
+              </a>
+              <a
+                onClick={() => {
+                  localStorage.removeItem("");
+                }}
+              >
+                Đăng xuất
+              </a>
+            </>
           ) : (
             <>
               <NavLink to="/register">

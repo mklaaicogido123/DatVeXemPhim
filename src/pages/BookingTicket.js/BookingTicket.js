@@ -38,7 +38,7 @@ export default function BookingTicket(props) {
     let dsGheDangDatUpdate = [...danhSachGheDangDat];
     setDanhSachGheDangDat(dsGheDangDatUpdate);
   };
-
+  const renderVeDat = (ve) => {};
   const datVe = () => {
     let usLogin = {};
     if (localStorage.getItem(userLogin)) {
