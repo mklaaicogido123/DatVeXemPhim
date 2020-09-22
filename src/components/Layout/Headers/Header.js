@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { Redirect } from "react-router-dom";
 export const Header = (props) => {
   //Kết nối đến QuanLyNguoiDungReducer lấy về state.nguoiDung
   let nguoiDung = useSelector(
@@ -34,7 +35,8 @@ export const Header = (props) => {
               </a>
               <a
                 onClick={() => {
-                  localStorage.removeItem("");
+                  localStorage.removeItem("userLogin");
+                  window.location.reload();
                 }}
               >
                 Đăng xuất

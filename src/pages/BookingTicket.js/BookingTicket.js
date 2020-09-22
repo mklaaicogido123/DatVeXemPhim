@@ -133,8 +133,8 @@ export default function BookingTicket(props) {
             </div>
           </div>
         </div>
+        <Foot></Foot>
       </div>
-      <Foot></Foot>
     </div>
   );
 }

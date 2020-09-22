@@ -3,6 +3,9 @@
     url(https://i.pinimg.com/originals/3b/4f/ac/3b4facdf04c5dcb2930c3177ab966dce.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+  width: 100%;
 }
 
 /* .hinhAnh {
